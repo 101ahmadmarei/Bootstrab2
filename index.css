@@ -1,0 +1,427 @@
+.section1 {
+  /* background-image: url(./images/Rectangle\ 31.png); */
+  /* width: 100%; */
+  /* height: 830px; */
+  /* background-size: cover; */
+  position: relative;
+
+  /* padding-top: 30px; */
+  width: 100%;
+  padding: 0;
+}
+.section1 .mainImage {
+  width: 100%;
+
+  border-top-right-radius: 36px;
+}
+.section1 .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-right-radius: 32px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 15px;
+}
+.section1 .content {
+  z-index: 100s;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  /* left: 0; */
+}
+.start span {
+  color: white;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.section1 .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.section1 .text h4 {
+  font-family: TradeGothic LT Extended;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: -10px;
+}
+.section1 .text h1 {
+  font-family: TradeGothic LT Extended;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 101px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.section1 .text p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.section1 .card {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  box-shadow: 0px 4px 16px 0px #8dd3bb26;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  padding: 16px 32px 32px 32px;
+  margin-bottom: 200px;
+}
+.section1 .card form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+.btn-green {
+  background-color: #8dd3bb;
+  border-color: #8dd3bb;
+}
+
+.btn-green:hover {
+  background-color: #016c47;
+  border-color: #016c47;
+}
+.section1 .card form .button1 {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 1000px) {
+  .section1 .text h4 {
+    font-size: 40px;
+  }
+  .section1 .text h1 {
+    font-size: 60px;
+  }
+  .section1 .text p {
+    font-size: 16px;
+  }
+  .section1 .card {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    box-shadow: 0px 4px 16px 0px #8dd3bb26;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .section1 .text h4 {
+    font-size: 30px;
+  }
+  .section1 .text h1 {
+    font-size: 40px;
+    margin-top: -30px;
+  }
+  .section1 .text p {
+    font-size: 12px;
+    margin-top: -30px;
+  }
+  .section1 .text {
+    top: 30%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .section1 .text h4 {
+    font-size: 15px;
+  }
+  .section1 .text h1 {
+    font-size: 25px;
+    margin-top: -50px;
+  }
+  .section1 .text p {
+    font-size: 8px;
+    margin-top: -50px;
+  }
+  .section1 .text {
+    top: 80%;
+  }
+  .section1 .mainImage {
+    height: 500px;
+  }
+}
+
+/* section 2 */
+.section2 {
+  margin-top: 300px;
+}
+header .text h1 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+header .text p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.section2 ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 20px;
+  margin-left: -30px;
+}
+.section2 ul li {
+  position: relative;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  width: 270px;
+}
+.section2 ul li pre {
+  display: inline-flex;
+  position: absolute;
+  left: 15px;
+  top: 30%;
+}
+@media only screen and (max-width: 1000px) {
+  .section2 {
+    margin-top: 50px;
+  }
+}
+/* section 3 */
+.section3 {
+  margin: auto;
+  margin-top: 80px;
+}
+.section3 .cont {
+  position: relative;
+  margin-bottom: 40px;
+}
+.section3 .cont img {
+  width: 100%;
+}
+.section3 div .text {
+  position: absolute;
+  top: 76%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section3 div .text h2 {
+  font-family: TradeGothic LT Extended;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+.section3 div .text p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+.section3 div .text button {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.section3 div .text button img {
+  margin: auto 5px;
+}
+
+/* section44 */
+.section4 .card {
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 20px 20px 4px rgba(141, 211, 187, 0.4);
+  padding: 0;
+  margin: 0 15px 40px;
+}
+.section4 .rating {
+  display: inline-block;
+  /* position: relative; */
+  /* left: -15px; */
+}
+
+/* .section4 .rating .fa {
+  font-size: 24px;
+  color: #ffc107;
+}
+
+.section4 .checked {
+  color: orange;
+} */
+*/ .card .card h5 {
+  font-family: TradeGothic LT Extended;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.5;
+}
+.custom-color {
+  color: orange;
+  margin-right: 8px;
+}
+
+.section4 img {
+  /* padding-bottom: 20px; */
+}
+.userName h4 {
+  font-family: TradeGothic LT Extended;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.userName p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.5;
+  margin-bottom: 8px;
+}
+.userName div {
+  margin-bottom: 20px;
+}
+.userName div span {
+  font-family: TradeGothic LT Extended;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  /* margin-right: 10px; */
+  opacity: 0.4;
+}
+.userName div i {
+  margin-right: 5px;
+}
+footer {
+  background-color: #8dd3bb;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  margin-top: 200px;
+  height: 300px;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+.allItems {
+  position: absolute;
+  bottom: 0;
+}
+footer h4 {
+  font-family: "TradeGothic LT Extended";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  /* Blackish Green */
+
+  color: #112211;
+}
+footer ul li {
+  margin-bottom: 10px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.7;
+}
+
+.section6 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(205, 234, 225, 1);
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  top: -40%;
+  left: 10%;
+  border-radius: 15px;
+  padding: 20px 20px 0;
+}
+.section61 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(205, 234, 225, 1);
+  width: 80%;
+  margin: auto;
+  border-radius: 15px;
+  padding: 20px 20px 0;
+}
+.s22 {
+  display: none;
+}
+.btn-dark {
+  background-color: rgba(17, 34, 17, 1);
+  margin-left: 10px;
+}
+@media only screen and (max-width: 1000px) {
+  .s11 {
+    display: none;
+  }
+
+  .s22 {
+    display: flex;
+  }
+  .allItems {
+    position: relative;
+  }
+  footer {
+    margin-top: 10px;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .s22 {
+    width: 95%;
+  }
+  .section5 {
+    height: inherit;
+  }
+}
