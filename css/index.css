@@ -148,14 +148,11 @@ body {
   justify-content: flex-end;
   flex-wrap: wrap;
 }
-.input-wrapper {
-  position: relative;
-}
 
 /* mui */
 .input-wrapper {
   position: relative;
-  width: 200px;
+  width: 100%;
 }
 .input-wrapper span {
   width: 40px;
@@ -167,16 +164,17 @@ body {
   transform: translateY(-50%);
 }
 .iconImage {
-  width: 200px;
+  width: 100%;
   position: relative;
 }
 .input {
   border: 1px solid gray;
   border-radius: 6px;
   position: relative;
-  width: 200px;
+  width: 100%;
   margin: 10px;
   line-height: 6ex;
+  padding-left: 10px;
 }
 
 .label {
@@ -224,27 +222,37 @@ body {
 }
 @media only screen and (max-width: 640px) {
   .section1 .text h4 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .section1 .text h1 {
-    font-size: 40px;
+    font-size: 30px;
     /* margin-top: -50px; */
   }
   .section1 .text p {
-    font-size: 10px;
+    font-size: 12px;
     /* margin-top: -50px; */
   }
   .section1 .text {
     top: 80%;
   }
   .section1 .mainImage img {
-    height: 500px;
+    height: 400px;
   }
   .section1 .mainImage::after {
-    height: 500px;
+    height: 400px;
   }
 }
-
+@media only screen and (max-width: 330px) {
+  .section1 .text h4 {
+    font-size: 15px;
+  }
+  .section1 .text h1 {
+    font-size: 20px;
+  }
+  .section1 .text p {
+    font-size: 10px;
+  }
+}
 /* section 2 */
 .section2 {
   margin-top: 300px;
@@ -270,22 +278,22 @@ header .text p {
   justify-content: space-between;
   list-style: none;
   margin-top: 20px;
-  margin-left: -30px;
+  padding: 0;
+  /* margin-left: -30px; */
 }
 .section2 ul li {
+  margin-bottom: 10px;
+}
+.section2 ul li .div {
   position: relative;
-  margin-left: 10px;
-  margin-bottom: 30px;
-  width: 270px;
-  /* box-shadow: 0px 4px 16px 0px #8dd3bb26; */
   box-shadow: 0px 4px 16px 0px #1122110d;
   border-radius: 15px;
-  height: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  padding: 16px;
+  /* justify-content: space-between; */
 }
-.section2 ul li div {
+.section2 ul li div div {
   margin-left: 16px;
 }
 .section2 ul li div p:first-of-type {
