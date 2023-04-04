@@ -153,6 +153,7 @@ body {
 .input-wrapper {
   position: relative;
   width: 100%;
+  padding-left: 0;
 }
 .input-wrapper span {
   width: 40px;
